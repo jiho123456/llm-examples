@@ -30,8 +30,9 @@ with st.sidebar:
     google_api_key = st.text_input("Google API 키", type="password")
     st.markdown("---")
     st.header("다른 AI 플랫폼 🌐")
-    st.markdown("[ChatGPT 웹](https://chat.openai.com)")
-    st.markdown("[Gemini 웹](https://gemini.google.com)")
+    st.markdown("[검색하기 좋은 거] (https://oo.ai)")
+    st.markdown("[노래 만드는 거] (https://suno.com/home)")
+    st.markdown("[앱 만드는 거] (https://builder.io)")
 
 # .env 파일에 키가 있으면 사용
 if os.getenv("OPENAI_API_KEY") and not openai_api_key:
